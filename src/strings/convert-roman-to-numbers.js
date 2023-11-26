@@ -8,7 +8,7 @@ const ROMAN_VALUES = {
   M: 1000,
 };
 
-function convertRomanToNumbers(romanNum) {
+function converRomanToNumber(romanNum) {
   let result = 0;
   let prevValue = 0;
 
@@ -29,4 +29,4 @@ function convertRomanToNumbers(romanNum) {
 }
 
 const examples = 'XXIV';
-console.log(convertRomanToNumbers(examples));
+console.log(converRomanToNumber(examples));
